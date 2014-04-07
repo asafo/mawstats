@@ -365,7 +365,7 @@ if ( $g_aConfig["type"] == "mail" )
           $sResolution  .= "<br />" . str_replace("[FOLDER]", "<strong>" . $sStatsPath . "/</strong>", Lang("Try changing the folder to [FOLDER]"));
         }
         $sResolution  .= "</p>";
-        $sResolution  .= "<p> Last PHP Error Message : ". $GLOBALS["errstr"] . "</p>";
+//        $sResolution  .= "<p> Last PHP Error Message : ". $GLOBALS["errstr"] . "</p>";
         break;
       case "NoLogsFound":
         $sStatsPath = $GLOBALS["aConfig"][$GLOBALS["g_sConfig"]]["statspath"];
