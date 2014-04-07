@@ -89,13 +89,13 @@
       $this->iTotalUnique = $this->GetSummaryElement($arrData, "totalunique", 1);
 
       // populate label array
-      $this->arrLabel["BROWSER"] 		  = array("id", "hits");
+      $this->arrLabel["BROWSER"] 		  = array("id", "hits", "pages");
       $this->arrLabel["DAY"] 			    = array("date", "pages", "hits", "bw", "visits");
       $this->arrLabel["DOMAIN"] 		  = array("id", "pages", "hits", "bw");
       $this->arrLabel["ERRORS"] 		  = array("id", "hits", "bw");
       $this->arrLabel["FILETYPES"] 		= array("id", "hits", "bw", "noncompressedbw", "compressedbw");
       $this->arrLabel["KEYWORDS"] 		= array("word", "freq");
-      $this->arrLabel["OS"] 			    = array("id", "hits");
+      $this->arrLabel["OS"] 			    = array("id", "hits", "pages");
       $this->arrLabel["PAGEREFS"] 		= array("url", "pages", "hits");
       $this->arrLabel["ROBOT"] 			  = array("id", "hits", "bw", "lastvisit", "robotstxt");
       $this->arrLabel["SEARCHWORDS"] 	= array("phrase", "freq");
