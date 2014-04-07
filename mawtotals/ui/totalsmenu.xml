@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<menu>
+  <tab id="thismonth" subview="all" label="This Month">
+     <subview id="all" label="Overview" />
+     <subview id="visits" label="Calendar of Visitors" />
+     <subview id="pages" label="Calendar of Page Views" />
+     <subview id="hits" label="Calendar of Page Views" />
+     <subview id="bandwidth" label="Calendar of Bandwidth Usage" />
+  </tab>
+</menu>
