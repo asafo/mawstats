@@ -395,7 +395,7 @@ if ( $g_aConfig["type"] == "mail" )
          "</style>\n" .
          "</head>\n<body>\n" .
          "<h1><span>" . Lang("An error has occured") . ":</span><br />" . $sProblem . "</h1>\n" . $sResolution .
-         "<p>" . str_replace("[LINKSTART]", "<a href=\"http://www.jawstats.com/documentation\" target=\"_blank\">", str_replace("[LINKEND]", "</a>", Lang("Please refer to the [LINKSTART]installation instructions[LINKEND] for more information."))) . "</p>\n" .
+         "<p>" . str_replace("[LINKSTART]", "<a href=\"https://github.com/asafo/mawstats/blob/master/README.md\" target=\"_blank\">", str_replace("[LINKEND]", "</a>", Lang("Please refer to the [LINKSTART]installation instructions[LINKEND] for more information."))) . "</p>\n" .
          "</body>\n</html>";
     exit;
   }
