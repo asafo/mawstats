@@ -35,6 +35,7 @@
   $gc_sJavascriptVersion = "200901251254";
   $g_aTranslation = array();
   $g_aCurrentTranslation = array();
+  $errstr = "";
 
 	// includes
   require_once "clsAWStats.php";

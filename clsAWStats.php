@@ -272,7 +272,7 @@
     	$arrStat = explode("\n", substr($this->sAWStats, ($iStartPos + 1), ($iEndPos - $iStartPos - 1)));
 	if ( $max == 0 )
 	  for ($iIndex = 1; $iIndex < count($arrStat); $iIndex++) {
-	    $data_line = split(' ', $arrStat[$iIndex]);
+	    $data_line = explode(' ', $arrStat[$iIndex]);
 	    if (isset($aDesc[$sSection])) {
 	      $req_len = count($this->arrLabel[$sSection])-1;
 	      while ( count($data_line) < $req_len ) $data_line[] = "";
@@ -285,7 +285,7 @@
 	  }
 	else 
 	  for ($iIndex = 1; $iIndex < count($arrStat); $iIndex++) {
-	    $data_line = split(' ', $arrStat[$iIndex]);
+	    $data_line = explode(' ', $arrStat[$iIndex]);
 	    if (isset($aDesc[$sSection])) {
 	      $req_len = count($this->arrLabel[$sSection])-1;
 	      while ( count($data_line) < $req_len  ) $data_line[] = "";
